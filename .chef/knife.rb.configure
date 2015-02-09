@@ -1,9 +1,0 @@
-log_level                :info
-log_location             STDOUT
-node_name                'chefadmin1'
-client_key               '/home/chefadmin1/chef-repo/.chef/chefadmin1.pem'
-validation_client_name   'njalb-validator'
-validation_key           '/home/chefadmin1/chef-repo/.chef/njalb-validator.pem'
-chef_server_url          'https://chefserver1.njlab.com:443'
-syntax_check_cache_path  '/home/chefadmin1/chef-repo/.chef/syntax_check_cache'
-cookbook_path [ '/home/chefadmin1/chef-repo/cookbooks' ]
